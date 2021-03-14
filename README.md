@@ -7,7 +7,7 @@ User will select an option from given choices and press ENTER key to move to nex
 This program will save all tasks in the data file, therefore, next time when you open the program,
 it will resume its state.
 
-##Basic Features of the APP
+## Basic Features of the APP
 * It models a task with:
     * task title
     * due date
