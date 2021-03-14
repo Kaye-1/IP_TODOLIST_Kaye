@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="kass.TaskTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-14T15:22:27" hostname="SDA-Lund-52-mbpro" time="0.04">
+<testsuite name="kass.TaskTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-14T21:03:07" hostname="SDA-Lund-52-mbpro" time="0.053">
   <properties/>
-  <testcase name="testValidDueDate()" classname="kass.TaskTest" time="0.019"/>
+  <testcase name="testValidDueDate()" classname="kass.TaskTest" time="0.016"/>
   <testcase name="testEmptyTitle()" classname="kass.TaskTest" time="0.001"/>
   <testcase name="testValidTitle()" classname="kass.TaskTest" time="0.001"/>
   <testcase name="testIncorrectFormatDueDate()" classname="kass.TaskTest" time="0.001"/>
   <testcase name="testValidProject()" classname="kass.TaskTest" time="0.001"/>
   <testcase name="testTrimEmptyTitle()" classname="kass.TaskTest" time="0.001"/>
-  <testcase name="testPastDueDate()" classname="kass.TaskTest" time="0.008"/>
+  <testcase name="testPastDueDate()" classname="kass.TaskTest" time="0.015"/>
   <testcase name="testEmptyProject()" classname="kass.TaskTest" time="0.001"/>
-  <testcase name="testNullTitle()" classname="kass.TaskTest" time="0.001"/>
+  <testcase name="testNullTitle()" classname="kass.TaskTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -49,7 +49,6 @@ public class ToDoList {
 
     }
 
-    // A method to read the value from user and update the given Task object in the ArrayList of Tasks
     public boolean updateTask(Task task) {
         Scanner scan = new Scanner(System.in);
         boolean isTaskUpdated = false;
@@ -235,7 +234,6 @@ public class ToDoList {
     }
 
     // This method will save the data of Tasks from ArrayList to data file on disk, i.e., tasks.obj
-
     public boolean save(String filename) {
         try {
             FileOutputStream fileOutputStream = new FileOutputStream(filename);
