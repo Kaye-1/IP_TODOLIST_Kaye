@@ -16,10 +16,6 @@ public class Task implements Serializable {
     // Creating an object of Task class
     public Task(String title, String project, LocalDate dueDate) {
 
-        /*this.setTitle(title);
-        this.setProject(project);
-        this.complete = false;
-        this.setDueDate(dueDate);*/
         this.title=title;
         this.project=project;
         this.complete=false;
@@ -32,8 +28,6 @@ public class Task implements Serializable {
     }
 
     // A method to set the title of a Task object, it mandatory to enter title.
-    // The trim() is used to eliminate the spaces before and after the title. The the title.trim() will return the title
-    // it self. the method accepts no parameters.
     public void setTitle(String title) throws NullPointerException {
         if (title.trim().equals("") || title == null) {
             throw new NullPointerException("REQUIRED: Title can not be empty.");
