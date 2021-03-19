@@ -17,7 +17,7 @@ public class Main {
         //A string to hold the choice that will be entered by the user
         String menuChoice = "1";
 
-        try {
+       try {
             Scanner input = new Scanner(System.in);
 
             // reading the date from task data file
